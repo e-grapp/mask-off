@@ -13,13 +13,13 @@ jobs:
       resource_class: runner-egrapp/support-demo
     # Add steps to the job
     # See: https://circleci.com/docs/configuration-reference/#steps
-    steps:
-      - checkout
-      - run:
-          name: "Say hello "
-          command: "echo Hello, World!"
-      - run: echo $TEST_VAR
-      - run: echo $maskaroni
+      steps:
+        - checkout
+        - run:
+            name: "Say hello "
+            command: "echo Hello, World!"
+        - run: echo $TEST_VAR
+        - run: echo $maskaroni
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
