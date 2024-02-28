@@ -10,7 +10,7 @@ jobs:
     # See: https://circleci.com/docs/configuration-reference/#executor-job
     runner:
       machine: true
-      resource_class: runner-egrapp/support-demo
+      resource_class: cimg/base:current
     # Add steps to the job
     # See: https://circleci.com/docs/configuration-reference/#steps
       steps:
